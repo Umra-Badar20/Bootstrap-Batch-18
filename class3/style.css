@@ -1,0 +1,79 @@
+.myBtn {
+  border-radius: 40px;
+  border: 1px solid #bebebe;
+}
+.myNav {
+  border-radius: 70px;
+}
+.navUl {
+  border-radius: 40px;
+  background-color: #fff;
+}
+.headerRow {
+  /* height: 600px; */
+  background: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+.headerInput {
+  border-radius: 40px;
+  background-color: #fefeff;
+  width: 438px;
+}
+.headerInput input {
+  outline: none;
+  border: none;
+}
+.headerImg {
+  width: 647px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.rightCol {
+  position: relative;
+}
+.projectsHeading{
+    font-size: 50px;
+}
+.grp{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .headerRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightCol{
+    order: -1;
+  }
+  .headerImg{
+    position: static;
+    width: 486px;
+  }
+  .parentCol{
+    order: 2;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navUl a {
+    text-align: center;
+  }
+}
