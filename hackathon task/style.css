@@ -59,3 +59,12 @@
     min-width: 400px;
 
 }
+@media only screen and (max-width:992px){
+  .absDiv{
+    position: static;
+    width: 100% !important;
+  }
+  .headerHeading{
+    font-size: 40px;
+  }
+}
